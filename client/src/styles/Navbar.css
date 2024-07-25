@@ -1,0 +1,90 @@
+.navbar {
+    align-items: center;
+    background-color: #003580;
+    color: white;
+    padding: 10px 20px;
+    
+}
+
+.navbar-logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.navbar-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+  }
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.navbar-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-links button {
+    background-color: white;
+    color: #003580;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.navbar-links button:hover {
+    background-color: #ccc;
+}
+
+.navbar-options {
+    display: flex;
+    justify-content: left;
+    margin: auto;
+    padding-top: 1rem;
+    width: 80%;
+  }
+  
+  .navbar-option {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .navbar-option.active {
+    border-radius: 5px;
+    background-color: white;
+    color: #003580;
+  }
+  
+  .navbar-option i {
+    margin-right: 5px;
+  }
+  
+  .navbar-option span {
+    font-size: 16px;
+  }
+
+  @media (max-width: 768px) {
+    .navbar-options {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar-option {
+      margin-bottom: 10px;
+    }
+  }

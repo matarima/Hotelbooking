@@ -1,0 +1,309 @@
+.admin-dashboard {
+  display: flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-right: 1px solid #dee2e6;
+}
+
+.sidebar h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #343a40;
+  display: block;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.sidebar a.active, 
+.sidebar a:hover {
+  background-color: #e9ecef;
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Info Board */
+.info-board {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.info-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  text-align: center;
+  margin-right: 15px; /* Khoảng cách giữa các card */
+}
+
+.info-card:last-child {  
+  margin-right: 0;  /* Loại bỏ margin cho card cuối */
+}
+
+.info-card h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #6c757d;
+}
+
+.info-card p {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #28a745; /* Màu xanh lá cây cho số liệu */
+}
+
+/* Transaction List */
+.transaction-list {
+  margin-top: 20px;
+}
+
+.transaction-list h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.transaction-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transaction-list th, 
+.transaction-list td {
+  padding: 10px;
+  border-bottom: 1px solid #dee2e6;
+  text-align: left;
+}
+
+.transaction-list th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+}
+
+.transaction-list .status.booked {
+  color: #ffc107; /* Màu vàng cho Booked */
+  font-weight: 500;
+}
+
+.transaction-list .status.checkin {
+  color: #28a745; /* Màu xanh lá cây cho Checkin */
+  font-weight: 500;
+}
+
+.transaction-list .status.checkout {
+  color: #007bff; /* Màu xanh dương cho Checkout */
+  font-weight: 500;
+}
+
+/* HotelDashboard Styles */
+.hotels-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.add-new-button {
+  padding: 8px 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-new-button:hover {
+  background-color: #218838;
+}
+
+.hotels-list-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.hotels-list-table th,
+.hotels-list-table td {
+  padding: 12px;
+  border-bottom: 1px solid #dee2e6;
+  text-align: left;
+}
+
+.hotels-list-table thead {
+  background-color: #f8f9fa;
+}
+
+.delete-button {
+  padding: 4px 8px;
+  color: #dc3545;
+  border: 1px solid #dc3545;
+  border-radius: 4px;
+  background: none;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #dc3545;
+  color: white;
+}
+
+/* New Hotel Form Styles */
+.new-hotel-form {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.new-hotel-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+}
+
+.new-hotel-form input,
+.new-hotel-form textarea {
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+.new-hotel-form textarea {
+  resize: vertical;
+}
+
+.new-hotel-form .send-button {
+  grid-column: span 2;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  justify-self: center;
+}
+
+.new-hotel-form .send-button:hover {
+  background-color: #218838;
+}
+
+/* Room List Styles */
+.rooms-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rooms-list-header h2 {
+  margin: 0;
+}
+
+.add-new-button, .delete-button, .edit-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-new-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.add-new-button:hover {
+  background-color: #218838;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+.edit-button {
+  background-color: #0920b8;
+  color: white;
+}
+
+.edit-button:hover {
+  background-color: #0e6eaa;
+}
+
+.rooms-list-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.rooms-list-table th, .rooms-list-table td {
+  padding: 10px;
+  border: 1px solid #dee2e6;
+  text-align: left;
+}
+
+/* New Room Form Styles */
+.new-room-form {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.new-room-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+}
+
+.new-room-form input,
+.new-room-form textarea {
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+.new-room-form textarea {
+  resize: vertical;
+}
+
+.new-room-form .send-button {
+  grid-column: span 2;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  justify-self: center;
+}
+
+.new-room-form .send-button:hover {
+  background-color: #218838;
+}
+

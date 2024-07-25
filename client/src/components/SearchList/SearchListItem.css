@@ -1,0 +1,95 @@
+.search-result-item {
+  display: flex;
+  border: 1px solid #ddd;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+  align-items: center;
+  /* Giữ các phần tử bên trong căn chỉnh theo chiều dọc */
+}
+
+.hotel-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.hotel-info {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.hotel-info h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #0071c2;
+  font-weight: bold;
+}
+
+.hotel-info p {
+  margin: 5px 0;
+  color: #333;
+}
+
+.hotel-featured {
+  background-color: #28a745;
+  color: white;
+  padding: 2px 5px;
+  font-size: 12px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.availability-button {
+  padding: 10px 20px;
+  background-color: #0071c2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: center;
+}
+
+.availability-button:hover {
+  background-color: #005b99;
+}
+
+.availability-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.availability-info p {
+  margin: 0;
+  font-weight: bold;
+  color: #28a745;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.rating {
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+}
+
+.rating-badge {
+  background-color: #0071c2;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-left: 10px;
+  display: inline-block;
+}

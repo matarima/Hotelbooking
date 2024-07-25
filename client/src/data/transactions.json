@@ -1,0 +1,371 @@
+[{
+  "_id": {
+    "$oid": "667cc3aeed3f102f4b4c9d87"
+  },
+  "user": "mata",
+  "hotel": {
+    "$oid": "66755e08c97224cde6d15685"
+  },
+  "room": [
+    {
+      "number": 1001,
+      "unavailableDates": [
+        {
+          "$date": "2024-06-26T00:00:00.000Z"
+        },
+        {
+          "$date": "2024-06-29T00:00:00.000Z"
+        }
+      ],
+      "_id": {
+        "$oid": "667cc3aeed3f102f4b4c9d88"
+      }
+    }
+  ],
+  "dateStart": {
+    "$date": "2024-06-26T00:00:00.000Z"
+  },
+  "dateEnd": {
+    "$date": "2024-06-29T00:00:00.000Z"
+  },
+  "price": 540,
+  "payment": "Credit Card",
+  "status": "Checkin",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667cc50eed3f102f4b4c9dba"
+  },
+  "user": "admin",
+  "hotel": {
+    "$oid": "6311a54a4a642f0142349086"
+  },
+  "room": [
+    {
+      "number": 901,
+      "unavailableDates": [
+        {
+          "$date": "2024-06-05T00:00:00.000Z"
+        },
+        {
+          "$date": "2024-06-08T00:00:00.000Z"
+        }
+      ],
+      "_id": {
+        "$oid": "667cc50eed3f102f4b4c9dbb"
+      }
+    }
+  ],
+  "dateStart": {
+    "$date": "2024-06-05T00:00:00.000Z"
+  },
+  "dateEnd": {
+    "$date": "2024-06-08T00:00:00.000Z"
+  },
+  "price": 660,
+  "payment": "Credit Card",
+  "status": "Booked",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667cc5fbed3f102f4b4c9e37"
+  },
+  "user": "user1",
+  "hotel": {
+    "$oid": "6311bd0713fce6ea18172fa3"
+  },
+  "room": [
+    {
+      "number": 1002,
+      "unavailableDates": [
+        {
+          "$date": "2024-06-05T00:00:00.000Z"
+        },
+        {
+          "$date": "2024-06-08T00:00:00.000Z"
+        }
+      ],
+      "_id": {
+        "$oid": "667cc5fbed3f102f4b4c9e38"
+      }
+    }
+  ],
+  "dateStart": {
+    "$date": "2024-06-05T00:00:00.000Z"
+  },
+  "dateEnd": {
+    "$date": "2024-06-08T00:00:00.000Z"
+  },
+  "price": 540,
+  "payment": "Credit Card",
+  "status": "Checkout",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6684d81cb03afd0a35ee90b2"
+  },
+  "user": "testuser",
+  "hotel": {
+    "$oid": "6311a54a4a642f0142349086"
+  },
+  "room": [
+    {
+      "number": 901,
+      "unavailableDates": [
+        {
+          "$date": "2024-07-04T00:00:00.000Z"
+        },
+        {
+          "$date": "2024-07-06T00:00:00.000Z"
+        }
+      ],
+      "_id": {
+        "$oid": "6684d81cb03afd0a35ee90b3"
+      }
+    }
+  ],
+  "dateStart": {
+    "$date": "2024-07-04T00:00:00.000Z"
+  },
+  "dateEnd": {
+    "$date": "2024-07-06T00:00:00.000Z"
+  },
+  "price": 440,
+  "payment": "Cash",
+  "status": "Booked",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6684d87cb03afd0a35ee90d6"
+  },
+  "user": "testuser",
+  "hotel": {
+    "$oid": "6311bd0713fce6ea18172fa3"
+  },
+  "room": [
+    {
+      "number": 1001,
+      "unavailableDates": [
+        {
+          "$date": "2024-07-03T00:00:00.000Z"
+        },
+        {
+          "$date": "2024-07-05T00:00:00.000Z"
+        }
+      ],
+      "_id": {
+        "$oid": "6684d87cb03afd0a35ee90d7"
+      }
+    }
+  ],
+  "dateStart": {
+    "$date": "2024-07-03T00:00:00.000Z"
+  },
+  "dateEnd": {
+    "$date": "2024-07-05T00:00:00.000Z"
+  },
+  "price": 360,
+  "payment": "Cash",
+  "status": "Booked",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6684eb2f2dbacb06269c1ae1"
+  },
+  "user": "testuser",
+  "hotel": {
+    "$oid": "66755e08c97224cde6d15685"
+  },
+  "room": [
+    {
+      "number": 1002,
+      "unavailableDates": [
+        {
+          "$date": "2024-07-04T00:00:00.000Z"
+        },
+        {
+          "$date": "2024-07-05T00:00:00.000Z"
+        }
+      ],
+      "_id": {
+        "$oid": "6684eb2f2dbacb06269c1ae2"
+      }
+    },
+    {
+      "number": 1001,
+      "unavailableDates": [
+        {
+          "$date": "2024-07-04T00:00:00.000Z"
+        },
+        {
+          "$date": "2024-07-05T00:00:00.000Z"
+        }
+      ],
+      "_id": {
+        "$oid": "6684eb2f2dbacb06269c1ae3"
+      }
+    }
+  ],
+  "dateStart": {
+    "$date": "2024-07-04T00:00:00.000Z"
+  },
+  "dateEnd": {
+    "$date": "2024-07-05T00:00:00.000Z"
+  },
+  "price": 360,
+  "payment": "Credit Card",
+  "status": "Booked",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6684eb832dbacb06269c1b15"
+  },
+  "user": "testuser",
+  "hotel": {
+    "$oid": "6311bd0713fce6ea18172fa3"
+  },
+  "room": [
+    {
+      "number": 301,
+      "unavailableDates": [
+        {
+          "$date": "2024-07-04T00:00:00.000Z"
+        },
+        {
+          "$date": "2024-07-13T00:00:00.000Z"
+        }
+      ],
+      "_id": {
+        "$oid": "6684eb832dbacb06269c1b16"
+      }
+    },
+    {
+      "number": 302,
+      "unavailableDates": [
+        {
+          "$date": "2024-07-04T00:00:00.000Z"
+        },
+        {
+          "$date": "2024-07-13T00:00:00.000Z"
+        }
+      ],
+      "_id": {
+        "$oid": "6684eb832dbacb06269c1b17"
+      }
+    }
+  ],
+  "dateStart": {
+    "$date": "2024-07-04T00:00:00.000Z"
+  },
+  "dateEnd": {
+    "$date": "2024-07-13T00:00:00.000Z"
+  },
+  "price": 6300,
+  "payment": "Credit Card",
+  "status": "Booked",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6685744e4588cad30c7183d2"
+  },
+  "user": "admin1",
+  "hotel": {
+    "$oid": "66755e08c97224cde6d15685"
+  },
+  "room": [
+    {
+      "number": 1001,
+      "unavailableDates": [
+        {
+          "$date": "2024-07-03T00:00:00.000Z"
+        },
+        {
+          "$date": "2024-07-04T00:00:00.000Z"
+        }
+      ],
+      "_id": {
+        "$oid": "6685744e4588cad30c7183d3"
+      }
+    },
+    {
+      "number": 1002,
+      "unavailableDates": [
+        {
+          "$date": "2024-07-03T00:00:00.000Z"
+        },
+        {
+          "$date": "2024-07-04T00:00:00.000Z"
+        }
+      ],
+      "_id": {
+        "$oid": "6685744e4588cad30c7183d4"
+      }
+    }
+  ],
+  "dateStart": {
+    "$date": "2024-07-03T00:00:00.000Z"
+  },
+  "dateEnd": {
+    "$date": "2024-07-04T00:00:00.000Z"
+  },
+  "price": 360,
+  "payment": "Credit Card",
+  "status": "Booked",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6685747b4588cad30c718420"
+  },
+  "user": "admin1",
+  "hotel": {
+    "$oid": "6311bd0713fce6ea18172fa3"
+  },
+  "room": [
+    {
+      "number": 302,
+      "unavailableDates": [
+        {
+          "$date": "2024-07-03T00:00:00.000Z"
+        },
+        {
+          "$date": "2024-07-04T00:00:00.000Z"
+        }
+      ],
+      "_id": {
+        "$oid": "6685747b4588cad30c718421"
+      }
+    },
+    {
+      "number": 303,
+      "unavailableDates": [
+        {
+          "$date": "2024-07-03T00:00:00.000Z"
+        },
+        {
+          "$date": "2024-07-04T00:00:00.000Z"
+        }
+      ],
+      "_id": {
+        "$oid": "6685747b4588cad30c718422"
+      }
+    }
+  ],
+  "dateStart": {
+    "$date": "2024-07-03T00:00:00.000Z"
+  },
+  "dateEnd": {
+    "$date": "2024-07-04T00:00:00.000Z"
+  },
+  "price": 700,
+  "payment": "Credit Card",
+  "status": "Booked",
+  "__v": 0
+}]

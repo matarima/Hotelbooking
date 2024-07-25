@@ -1,0 +1,49 @@
+.transactions-container {
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+  .transactions-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .transactions-table th,
+  .transactions-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .transactions-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
+  .transactions-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .transactions-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .status-booked {
+    color: white;
+    background-color: #ff6b6b;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+  
+  .status-checkin {
+    color: white;
+    background-color: #1dd1a1;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+  
+  .status-checkout {
+    color: white;
+    background-color: #5f27cd;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }

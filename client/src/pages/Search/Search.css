@@ -1,0 +1,19 @@
+.search-container {
+    display: flex;
+    /* Cho phép hai phần tử con sắp xếp cạnh nhau */
+    justify-content: space-between;
+    /* Phân bố khoảng cách đều giữa hai phần tử con */
+    padding: 3rem 0; 
+  }
+  
+  .search-popups {
+    width: 30%;
+    /* Chiều rộng của SearchPopup */
+    margin-right: 20px; 
+    /* Khoảng cách bên phải */
+  }
+  
+  .search-results {
+    width: 100%; 
+    /* Chiều rộng của SearchList */
+  }

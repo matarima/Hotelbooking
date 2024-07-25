@@ -1,0 +1,8 @@
+.search-results {
+    display: flex;
+    /* Cho phép các SearchListItem sắp xếp cạnh nhau */
+    flex-direction: column;
+    /* Sắp xếp các SearchListItem theo chiều dọc */
+    gap: 20px; 
+    /* Khoảng cách giữa các SearchListItem */
+  }

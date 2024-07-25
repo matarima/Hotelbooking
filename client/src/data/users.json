@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "66821fc809cc3c828b251900"
+  },
+  "username": "testuser",
+  "password": "$2a$10$e8LfutQYzXa9Lmp.czVo4uESdGE9PFQ0s0pFm.gsuhB21FtuQYr3e",
+  "fullName": "Test User",
+  "phoneNumber": "123456789",
+  "email": "testuser@example.com",
+  "isAdmin": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66822341b7d23382c37d5294"
+  },
+  "username": "admin1",
+  "password": "$2a$10$5R2wD7KG5.M6Kud4kVP8ku.x1IA/0s1TMB4aff9a05h6hOXV38WmS",
+  "fullName": "Test Admin",
+  "phoneNumber": "0123456789",
+  "email": "testadmin@example.com",
+  "isAdmin": true,
+  "__v": 0
+}]

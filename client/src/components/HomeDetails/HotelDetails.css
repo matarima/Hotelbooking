@@ -1,0 +1,183 @@
+/* HotelDetails.css */
+
+.hotel-details {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.images-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 cột */
+  grid-gap: 10px;
+  margin-bottom: 20px;
+}
+
+.images-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px; /* Tăng thêm độ thẩm mỹ */
+}
+
+.price-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.price-container button {
+  background-color: #0071c2;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px; /* Thêm font-size để nhìn rõ hơn */
+}
+
+.price-container button:hover {
+  background-color: #0056a3; /* Thay đổi màu khi hover */
+}
+
+.booking-form {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.booking-dates label,
+.reserve-info label,
+.select-rooms label,
+.total-bill label,
+.payment-method label {
+  font-weight: bold;
+  display: block;
+  margin-top: 15px;
+}
+
+.booking-dates {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.date-picker-wrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.date-input {
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+.reserve-info {
+  margin-bottom: 20px;
+}
+
+.reserve-info input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.reserve-info input::placeholder {
+  color: #ccc; /* Thêm màu placeholder để dễ nhìn */
+}
+
+.select-rooms {
+  margin-bottom: 20px;
+}
+
+.select-rooms .room-item {
+  margin-bottom: 20px;
+}
+
+.select-rooms .room-item span {
+  font-weight: bold;
+}
+
+.select-rooms .room-item p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.select-rooms .room-checkbox {
+  margin-right: 5px;
+}
+
+.total-bill {
+  margin-top: 20px;
+}
+
+.total-bill label {
+  font-size: 18px;
+  color: #0071c2;
+}
+
+.payment-method {
+  margin-top: 20px;
+}
+
+.payment-method select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+.payment-method select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.reserve-button {
+  width: 100%;
+  padding: 15px;
+  background-color: #0071c2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.reserve-button:hover {
+  background-color: #0056a3;
+}
+
+/* Thêm phần chọn trạng thái đặt phòng */
+.status-method {
+  margin-top: 20px;
+}
+
+.status-method label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.status-method select {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.status-method select:focus {
+  border-color: #007bff;
+  outline: none;
+}

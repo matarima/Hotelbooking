@@ -1,0 +1,13 @@
+.hero {
+  background-image: url("https://r-xx.bstatic.com/xdata/images/xphoto/2880x868/346457038.jpeg?k=7cac75d50b046a991ab7993e9cac89d451d4cc371f108d0fe89d84ba1fc85f19&o="); /* Thay "your-image-path.jpg" = ảnh của bạn */
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.hero h1 {
+  font-size: 48px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}

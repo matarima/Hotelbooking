@@ -1,0 +1,61 @@
+/* EditHotel.css */
+.admin-dashboard {
+  display: flex;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.edit-hotel-form {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.edit-hotel-form button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-hotel-form button:hover {
+  background-color: #218838;
+}
+
+.edit-hotel-form button[type="button"] {
+  background-color: #dc3545;
+}
+
+.edit-hotel-form button[type="button"]:hover {
+  background-color: #c82333;
+}
+
+/* New Hotel Form Styles */
+.edit-hotel-form {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.edit-hotel-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+}
+
+.edit-hotel-form input,
+.edit-hotel-form textarea {
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+.edit-hotel-form textarea {
+  resize: vertical;
+}

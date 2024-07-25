@@ -1,0 +1,54 @@
+.admin-dashboard {
+    display: flex;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .transactions-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .transactions-table th,
+  .transactions-table td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .transactions-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .transactions-table .status.booked {
+    background-color: #ffcccc;
+  }
+  
+  .transactions-table .status.checkin {
+    background-color: #ccffcc;
+  }
+  
+  .transactions-table .status.checkout {
+    background-color: #e0e0ff;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .pagination button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }

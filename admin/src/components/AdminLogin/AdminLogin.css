@@ -1,0 +1,56 @@
+/* Đặt chung cho toàn trang */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Đặt styles cho container của form login */
+  .login-container {
+    width: 100%;
+    max-width: 400px; /* Giới hạn chiều rộng tối đa của form */
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Đổ bóng cho form */
+    border-radius: 8px; /* Bo góc cho form */
+    text-align: center;
+  }
+  
+  /* Đặt styles cho tiêu đề của form */
+  .login-container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333333;
+  }
+  
+  /* Đặt styles cho các input fields */
+  .login-container input[type="text"],
+  .login-container input[type="password"] {
+    width: calc(100% - 20px); /* Đảm bảo điều chỉnh cho padding */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Đảm bảo padding và border không ảnh hưởng đến chiều rộng */
+    font-size: 16px;
+  }
+  
+  /* Đặt styles cho button */
+  .login-container button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4CAF50; /* Màu nền của button */
+    border: none;
+    border-radius: 4px; /* Bo góc cho button */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Hiệu ứng hover cho button */
+  .login-container button:hover {
+    background-color: #45a049;
+  }

@@ -1,0 +1,44 @@
+.signup-container {
+    background-color: #002E6D; /* Màu nền xanh */
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.signup-container h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.signup-container p {
+    margin-bottom: 1rem;
+}
+
+.signup-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.signup-form input[type="email"] {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    width: 250px;
+}
+
+.signup-form button {
+    background-color: #007feb; /* Màu xanh của nút */
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.signup-form button:hover {
+    background-color: #005bb5; /* Màu xanh khi hover */
+}

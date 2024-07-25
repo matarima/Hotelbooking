@@ -1,0 +1,38 @@
+.search-popup {
+    background-color: #f0a500;
+    padding: 20px;
+    border-radius: 8px;
+    margin-right: 20px;
+    flex: 1;
+  }
+  
+  .search-popup h2 {
+    color: #333333;
+  }
+  
+  .search-popup .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .search-popup label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .search-popup input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .search-popup .search-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0071c2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }

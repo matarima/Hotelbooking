@@ -1,0 +1,56 @@
+.admin-dashboard {
+  display: flex;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+.edit-room-form {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.edit-room-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+}
+
+.edit-room-form input,
+.edit-room-form textarea {
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+.edit-room-form textarea {
+  resize: vertical;
+}
+
+.edit-room-form .send-button {
+  grid-column: span 2;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  justify-self: center;
+}
+.edit-room-form .edit-button {
+    grid-column: span 2;
+    padding: 10px 20px;
+    background-color: #154eaa;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    justify-self: center;
+  }
+
+.edit-room-form .send-button:hover {
+  background-color: #218838;
+}
